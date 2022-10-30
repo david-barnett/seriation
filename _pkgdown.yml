@@ -1,0 +1,52 @@
+url: ~
+template:
+  bootstrap: 5
+
+reference:
+- title: Seriation and permutation
+- contents:
+  - seriate
+  - permute
+  - criterion
+
+- title: Permutation vector objects
+- contents:
+  - get_order
+  - matches("ser_permutation")
+  - permutation_vector2matrix
+  - ser_dist
+
+- title: Method registries
+- contents:
+  - matches("registry")
+  - matches("register")
+
+- title: Plotting functions
+- contents:
+  - matches("plot")
+  - hmap
+  - pimage
+  - palette
+
+- title: Other functions
+- contents:
+  - is.robinson
+  - LS
+  - VAT
+  - reorder.hclust
+
+- title: Datasets
+- contents:
+  - Munsingen
+  - Irish
+  - Psych24
+  - Townships
+  - SupremeCourt
+  - Wood
+  - Zoo
+  - Chameleon
+  - create_lines_data
+
+- title: Package
+- contents:
+  - seriation-package
